@@ -1,0 +1,118 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-slide-1",
+      "description": "Where Innovation Meets Quality Preservation",
+      "imageUrl": "/slide1.jpeg",
+      "imageHint": "industrial refrigeration"
+    },
+    {
+      "id": "hero-slide-2",
+      "description": "Efficient Cooling, Sustainable Future",
+      "imageUrl": "/slide2.jpeg",
+      "imageHint": "cooling solutions"
+    },
+    {
+      "id": "hero-bg",
+      "description": "High-end industrial refrigeration units in a modern, clean commercial kitchen",
+      "imageUrl": "/images/hero-bg.png",
+      "imageHint": "industrial refrigeration"
+    },
+    {
+      "id": "about-factory",
+      "description": "Modern manufacturing facility of refrigeration units",
+      "imageUrl": "/images/about-factory.png",
+      "imageHint": "manufacturing facility"
+    },
+    {
+      "id": "sector-pastry",
+      "description": "High-end pastry display fridge in a luxury bakery",
+      "imageUrl": "/images/sector-pastry.png",
+      "imageHint": "pastry display"
+    },
+    {
+      "id": "sector-gelato",
+      "description": "Professional gelato display case",
+      "imageUrl": "/images/sector-gelato.png",
+      "imageHint": "gelato display"
+    },
+    {
+      "id": "sector-foodservice",
+      "description": "Commercial kitchen stainless steel refrigerators",
+      "imageUrl": "/images/sector-foodservice.png",
+      "imageHint": "kitchen refrigerators"
+    },
+    {
+      "id": "sector-bar",
+      "description": "Sleek undercounter bar fridges",
+      "imageUrl": "/images/sector-bar.png",
+      "imageHint": "bar fridges"
+    },
+    {
+      "id": "product-cabinet",
+      "description": "Stainless steel commercial upright refrigerator cabinet",
+      "imageUrl": "/images/product-cabinet.png",
+      "imageHint": "refrigerator cabinet"
+    },
+    {
+      "id": "product-counter",
+      "description": "Commercial refrigeration counter unit",
+      "imageUrl": "/images/product-counter.png",
+      "imageHint": "refrigeration counter"
+    },
+    {
+      "id": "product-chiller",
+      "description": "Commercial blast chiller freezer",
+      "imageUrl": "/images/product-chiller.png",
+      "imageHint": "blast chiller"
+    },
+    {
+      "id": "product-display",
+      "description": "Bakery display refrigerator case",
+      "imageUrl": "/images/product-display.png",
+      "imageHint": "display case"
+    },
+    {
+      "id": "leadership-vision",
+      "description": "William S.R., Managing Director of Williams Refrigeration",
+      "imageUrl": "/Williams.png",
+      "imageHint": "professional leader"
+    },
+    {
+      "id": "production-line",
+      "description": "Precise engineering and manufacturing production line",
+      "imageUrl": "https://picsum.photos/seed/production/800/600",
+      "imageHint": "production line"
+    },
+    {
+      "id": "certification-logos",
+      "description": "ISO 9001 and ISO 14001 certification logos",
+      "imageUrl": "/Award.png",
+      "imageHint": "iso certification"
+    },
+    {
+      "id": "growth-map",
+      "description": "Company growth and global presence map",
+      "imageUrl": "/Company-Growth_12-Feet-White.jpg",
+      "imageHint": "growth map"
+    },
+    {
+      "id": "careers-culture",
+      "description": "Team collaborating in a modern office environment",
+      "imageUrl": "https://picsum.photos/seed/culture/1200/800",
+      "imageHint": "team culture"
+    },
+    {
+      "id": "careers-hero",
+      "description": "Diverse professionals working together",
+      "imageUrl": "https://picsum.photos/seed/careers/1920/1080",
+      "imageHint": "working people"
+    },
+    {
+      "id": "expo-banner",
+      "description": "HORECA & BAKERS EXPO 2026 Banner",
+      "imageUrl": "/Event_Expo.webp",
+      "imageHint": "expo event"
+    }
+  ]
+}

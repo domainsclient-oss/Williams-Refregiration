@@ -1,0 +1,83 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 216 15% 95%;
+    --foreground: 216 10% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 216 10% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 216 10% 12%;
+    --primary: 217 40% 52%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 216 10% 90%;
+    --secondary-foreground: 216 37% 32%;
+    --muted: 216 15% 90%;
+    --muted-foreground: 216 10% 45%;
+    --accent: 186 60% 60%;
+    --accent-foreground: 216 10% 12%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 216 10% 88%;
+    --input: 216 10% 88%;
+    --ring: 216 37% 52%;
+    --radius: 1rem;
+  }
+  .dark {
+    --background: 216 10% 12%;
+    --foreground: 216 15% 95%;
+    --card: 216 10% 15%;
+    --card-foreground: 216 15% 95%;
+    --popover: 216 10% 12%;
+    --popover-foreground: 216 15% 95%;
+    --primary: 217 40% 52%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 216 10% 20%;
+    --secondary-foreground: 216 15% 95%;
+    --muted: 216 10% 20%;
+    --muted-foreground: 216 10% 65%;
+    --accent: 186 60% 60%;
+    --accent-foreground: 216 10% 12%;
+    --border: 216 10% 25%;
+    --input: 216 10% 25%;
+    --ring: 216 37% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border font-body;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    scroll-behavior: smooth;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+@layer components {
+  .product-hero-title {
+    @apply text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold uppercase tracking-tighter text-white text-center leading-[1.1] md:leading-[1.1] font-headline;
+  }
+}
+
+.glass-nav {
+  @apply bg-background/90 backdrop-blur-md sticky top-0 z-50 border-b border-border;
+}
+
+::-webkit-scrollbar {
+  @apply w-1.5;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-muted-foreground/20 rounded-full hover:bg-muted-foreground/40 transition-colors;
+}
